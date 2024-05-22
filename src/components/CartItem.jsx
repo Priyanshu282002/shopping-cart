@@ -11,7 +11,7 @@ const CartItem = ({item,itemIndex}) => {
     toast.error("Item Removed");
   }
   return (
-  <div className="flex mt-10 gap-16 border-b-2 border-black pb-10">
+  <div className="flex max-[640px]:flex-col justify-center items-center mt-10 gap-16 border-b-2 border-black pb-10">
     <div className="h-[200px] w-[50%]">
       <img src={item.image} className="h-full w-full"/>
     </div>

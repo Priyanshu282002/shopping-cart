@@ -15,7 +15,7 @@ const Cart = () => {
     <div>
       {
         cart.length>0?
-        (<div className="flex justify-center items-center gap-16">
+        (<div className="flex justify-center items-center gap-16 flex-wrap">
           <div>
             {
               cart.map((item,index) =>{
